@@ -1,0 +1,6 @@
+python-telegram-bot==20.7
+Pillow>=10.3.0
+qrcode[pil]>=7.4.2
+arabic-reshaper>=3.0.0
+python-bidi>=0.4.2
+deep-translator>=1.11.4

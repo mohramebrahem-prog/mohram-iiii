@@ -8,10 +8,10 @@ import os
 # ══════════════════════════════════════════════════════════════
 #  بيانات البوت — غيّرها بعد نسخ المشروع
 # ══════════════════════════════════════════════════════════════
-BOT_TOKEN      = "YOUR_BOT_TOKEN_HERE"
+BOT_TOKEN      = "8207472950:AAHS9FqJzNARdhSj1iBu_y1WxzFOSe7VOZs"
 API_ID         = 0          # من my.telegram.org
 API_HASH       = "YOUR_API_HASH_HERE"
-ADMIN_IDS      = [123456789]  # قائمة IDs الأدمن
+ADMIN_IDS      = [6056642165]  # قائمة IDs الأدمن
 ENCRYPTION_KEY = "MuharramSecureKey2024v2!#@$"  # غيّر هذا!
 
 # ══════════════════════════════════════════════════════════════

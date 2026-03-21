@@ -17,7 +17,7 @@ ADMIN_IDS      = [6056642165]
 ENCRYPTION_KEY = "MuharramSecureKey2024v2!#@$"
 
 BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
-DATA_DIR      = os.path.join(BASE_DIR, "data")
+DATA_DIR = BASE_DIR
 DATABASE_PATH = os.path.join(DATA_DIR, "data.db")
 LOG_FILE      = os.path.join(BASE_DIR, "logs", "bot.log")
 EXPORTS_DIR   = os.path.join(BASE_DIR, "exports")

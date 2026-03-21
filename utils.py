@@ -18,7 +18,7 @@ ENCRYPTION_KEY = "MuharramSecureKey2024v2!#@$"
 
 BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = BASE_DIR
-DATABASE_PATH = os.path.join(DATA_DIR, "data.db")
+DATABASE_PATH = os.path.join(BASE_DIR, "data.db")
 import shutil as _shutil
 _src = os.path.join(BASE_DIR, "data.db")
 if os.path.exists(_src) and not os.path.exists(DATABASE_PATH):

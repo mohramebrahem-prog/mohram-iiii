@@ -19,6 +19,10 @@ ENCRYPTION_KEY = "MuharramSecureKey2024v2!#@$"
 BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = BASE_DIR
 DATABASE_PATH = os.path.join(DATA_DIR, "data.db")
+import shutil as _shutil
+_src = os.path.join(BASE_DIR, "data.db")
+if os.path.exists(_src) and not os.path.exists(DATABASE_PATH):
+    _shutil.copy2(_src, DATABASE_PATH)
 LOG_FILE      = os.path.join(BASE_DIR, "logs", "bot.log")
 EXPORTS_DIR   = os.path.join(BASE_DIR, "exports")
 TEMP_DIR      = os.path.join(BASE_DIR, "temp")

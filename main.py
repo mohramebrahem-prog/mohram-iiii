@@ -61,7 +61,7 @@ cb_hdl = CallbackHandlers(
 )
 
 # ── التطبيق ───────────────────────────────────────────────────────
-app = Application.builder().token(BOT_TOKEN).concurrent_updates(True).build()
+app = Application.builder().token(BOT_TOKEN).build()
 
 pub_svc.bot    = app.bot
 flash_eng.bot  = app.bot
